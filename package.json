@@ -4,7 +4,7 @@
   "description": "Measure application-layer latency from your host to every Jito Block Engine region, rank them, and pick the closest.",
   "type": "module",
   "bin": {
-    "jito-region-latency": "./jito-region-latency.mjs"
+    "jito-region-latency": "jito-region-latency.mjs"
   },
   "files": [
     "jito-region-latency.mjs",
