@@ -1,0 +1,33 @@
+{
+  "name": "jito-region-latency",
+  "version": "1.0.0",
+  "description": "Measure application-layer latency from your host to every Jito Block Engine region, rank them, and pick the closest.",
+  "type": "module",
+  "bin": {
+    "jito-region-latency": "./jito-region-latency.mjs"
+  },
+  "files": [
+    "jito-region-latency.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "solana",
+    "jito",
+    "block-engine",
+    "latency",
+    "mev",
+    "arbitrage",
+    "benchmark",
+    "trading"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitservers/jito-region-latency.git"
+  },
+  "homepage": "https://orbitservers.io/benchmarks/jito-latency",
+  "author": "OrbitServers (https://orbitservers.io)"
+}
